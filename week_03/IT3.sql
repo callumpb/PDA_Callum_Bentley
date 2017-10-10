@@ -9,5 +9,7 @@ CREATE TABLE cars (
 
 INSERT INTO cars (manufacturer, model) VALUES ('Bugatti', 'Chiron');
 INSERT INTO cars (manufacturer, model) VALUES ('Reliant', 'Reliant Robin');
+INSERT INTO cars (manufacturer, model) VALUES ('Ferrari', 'F430');
 
-SELECT * FROM cars;
+SELECT * FROM cars
+ORDER by manufacturer ASC;
