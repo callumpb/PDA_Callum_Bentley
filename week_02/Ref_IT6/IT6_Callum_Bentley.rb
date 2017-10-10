@@ -16,4 +16,4 @@ def call_my_hash(military_jet)
   return military_jet
 end
 
-puts military_jet[:uk][:quantity]
+puts military_jet
